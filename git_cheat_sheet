@@ -1,0 +1,44 @@
+Ngay nao cung phai su dung github.com ... 
+Tu tao tai khoan github 
+Clone projet 
+git clone https://github.com/nguyenthang338/tailieu
+cd tailieu
+
+
+# Thao tac hang ngay
+git pull 
+git checkout -b dev   //Tao moi branch 
+
+# Khi Edit 1 file, (Moi file 1 commit, edit xong can comit theo hanh dong)
+git add file
+git commit -m 'Thay doi ' 
+
+#Lenh push branch len 
+git push -u origin dev 
+
+# Switch to main branch 
+git checkout main
+git branch -D dev 
+
+# Kiem tra code khac gi so voi commit lan truoc
+git log -p tenfile
++4 la 4 dong dc them 
+-4 la xoa mat 4 dong
+Chu y (+-) la oke 
+
+https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
+# Moi commit la 1 o tron 
+Muon xoa commit nao thi 
+git log 
+git revert 30de (Xoa commit with id30de)
+
+# Dac biet 
+git reset  -> Remove last commit
+
+
+
+
+
+
+
+
