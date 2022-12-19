@@ -36,6 +36,14 @@ git revert 30de (Xoa commit with id30de)
 git reset  -> Remove last commit
 
 
+# Cac lenh quan li branch can ban
+Show toan bo branch 
+git status
+git branch -a 
+git checkout master ( switch to master)
+git checkout -b huy ( tao branch ten huy)
+
+
 
 
 
