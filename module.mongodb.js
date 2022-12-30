@@ -66,4 +66,4 @@ let find_id_update  = async function (symbol,_id, thuoctinh, value){
 }
 
 module.exports  = {
-  insert , update, find, remove } 
+  insert , update, find, remove, find_mutil, find_id, find_id_update } 
